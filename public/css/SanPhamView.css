@@ -1,0 +1,285 @@
+.navbar navbar-expand-sm bg-danger navbar-dark{
+    position: relative;
+}
+.form-inline {
+    position: absolute;
+    right: 30%;
+} 
+.row {
+    background-color: mintcream;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* --------------------------------------------------Trang Chu -------------------------------------- */
+.full  {
+    background-color: white;
+    font-size: 1rem;
+}
+
+.hd{
+    position: relative;
+}
+
+/* --------------------------------------------------Gio hang -------------------------------------- */
+#giohang {
+    padding: 5px;
+    padding-left: 15px;
+}
+
+/*---------------------------------------------------contact--------------------------------------------*/
+#contact{
+    text-align: center;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    color: #F1F1F1;
+}
+a#contact{
+    text-decoration: none;
+}
+
+a#contact:hover {
+    background-color: rgb(35, 36, 37);
+}
+
+
+
+.ct{
+    position: relative;
+    
+}
+.box-color{
+    background-color: rgb(34, 34, 30);
+    position: absolute;
+    width: 180px;
+    height: 198px;
+    top: 0px;
+    right: 35px;
+    border-radius: 5px;
+}
+.box-color2{
+    border-radius: 5px;
+    background-color: rgb(34, 34, 30);
+    position: absolute;
+    width: 180px;
+    height: 198px;
+    top: 202px;
+    right: 35px;
+}
+.box-color3{
+    background-color: rgb(46, 46, 9);
+}
+.image-slider{
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    width: 80%;
+}
+
+.image {
+    height: 25em;
+    margin-bottom: 20px;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.image-title {
+    font-size: 20px;
+    color: blueviolet;
+}
+#box-spnb{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+#box-spnb:hover {
+    transform: scale(1.05);
+    transition: all ease-in-out 0.1s;
+    background-color: rgba(231, 219, 219, 0.24);
+    
+}
+#sanphamnoibac{
+    
+    border-radius: 5px;
+    padding: 5px;
+} 
+
+/* -----------Sale------------- */
+
+#sieusale{
+    border-radius: 5px;
+    background-color: #FED100;
+    padding: 5px;
+}
+#box-sieusale{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+#box-sieusale:hover{
+    transform: scale(1.05);
+    transition: all ease-in-out 0.1s;
+}
+
+#sanphammoi{
+    border-radius: 5px;
+    padding: 5px;
+}
+#box-spm{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+#box-spm:hover {
+    transform: scale(1.05);
+    transition: all ease-in-out 0.1s;
+    background-color: rgba(231, 219, 219, 0.24);
+    
+}
+
+
+/*--------------------------------------------- login --------------------------------------------------*/
+
+ul{
+	list-style-type: none;
+    
+}
+.drop-down{
+	text-align: center;
+    
+}
+.drop-down > li{
+    
+	float: left;
+	position: relative;
+}
+.drop-down > li a{
+	display: block;	
+	font-size: 16px;
+    margin-top: 15px;
+	padding: 10px 12px;	
+	color: black;
+	text-decoration:none;	
+}
+.drop-down > li a:hover{
+	background-color: rgb(210, 225, 240);
+}
+.drop-down ul{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 150px;
+	display: none;
+}
+
+.drop-down li:hover >ul{
+	display: inline-block;
+}
+
+.drop-down ul li {
+	text-align: left;
+}
+
+/* ------Gio hang-------- */
+#giohang{
+    margin-left: 50px;
+    border-radius: 5px;
+}
+#title-gh{
+    font-weight: normal; 
+    font-size: 20px;
+    color: rgb(255, 255, 255);   
+}
+
+
+
+#title-ls{
+    color: white;
+    font-size: 14pt;
+}
+
+
+
+/* ----------------------------------------------------Dien Thoai--------------------------------------------------- */
+
+.box1{
+    top: 0px;
+    position: relative;
+    display:inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin-left: 65px;
+}
+.box1:hover {
+    transform: scale(1.05);
+    transition: all ease-in-out 0.1s;
+}
+/* ----------------------------------------------------Laptop--------------------------------------------------- */
+.Thuonghieu-laptop{
+    background-color: black;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.box2{
+    top: 5px;
+    position: relative;
+    display:inline-block;
+    border-radius: 40px;
+    margin-left: 55px;
+    background-color: white;
+    width: 150px;
+    font-size: 14pt;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+.box2 a{
+    color: black;
+}
+
+/* ----------------------------------------------------Thông tin--------------------------------------------------- */
+.main_image, .Thongtin_SP{
+    float: left;
+}
+.label-chitiet{
+    
+    background-color: #F1F1F1;
+    font-weight: bold;
+    font-size: 14pt;
+    height: 30px;
+}
+.modal-chitiet{
+    margin-left: 150px;
+}
+/* .slick-prev:before {
+    color: rgb(0, 255, 221);
+    font-size: 30px;
+}
+  
+.slick-next:before {
+    color: rgb(0, 255, 221);
+    font-size: 30px;
+} */
+
+/* ----------------------------------------------------Quản lí--------------------------------------------------- */
+.box3 a:hover {
+    background-color: rgb(116, 116, 117);
+}
+#box1452:hover{
+    background-color: brown;
+}

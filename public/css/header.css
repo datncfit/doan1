@@ -1,0 +1,37 @@
+/* ul{
+	list-style-type: none;
+}
+.drop-down{
+	text-align: center;
+}
+.drop-down > li{
+  
+	float: left;
+	position: relative;
+}
+.drop-down > li a{
+	display: block;	
+	font-size: 16px;
+	padding: 10px 12px;	
+	color: black;
+	text-decoration:none;	
+}
+.drop-down > li a:hover{
+	background-color: rgb(210, 225, 240);
+}
+.drop-down ul{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 150px;
+	display: none;
+}
+
+.drop-down li:hover >ul{
+	display: inline-block;
+}
+
+.drop-down ul li {
+	text-align: left;
+}
+ */
